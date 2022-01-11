@@ -1,0 +1,116 @@
+.content {
+    max-width: 80%;
+    margin: auto;
+}
+.card-fluid {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card-img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+
+/* Add some padding inside the card container */
+.container {
+    padding: 5px 34px;
+}
+.card-content {
+	padding: 15px 34px;
+    max-width: 100%;
+    margin: auto;	
+}
+
+.dotted {
+  border:none;
+  border-top:2px dotted #000000;
+  background-color:#fff;
+  width:100%;
+}
+
+/* Аккордеон */
+
+.tab input, .tab-content { display: none; }
+   .tab {
+	margin-left:15px;
+	padding: 10px;
+    font: 0.8rem/1.2 Arial, sans-serif; /* Параметры шрифта */
+    border: 1px solid #e9eaec; /* Параметры рамки */
+    border-radius: 3px; /* Скругляем уголки */
+    color: #2F4F4F; /* Цвет текста */
+    margin-bottom: 10px; /* Расстояние между пунктами */
+   }
+   .tab-title {
+    padding: 15px; /* Поля вокруг текста */
+    display: block; /* Блочный элемент */
+    font-weight: bold; /* Жирное начертание */
+    cursor: pointer; /* Вид курсора */
+   }
+   .tab-title::after {
+    content: '>'; /* Выводим > */
+    float: right; /* Размещаем по правому краю */
+   }
+   .tab-content {
+    padding: 10px 20px; /* Поля вокруг текста */
+   }
+   .tab :checked + .tab-title {
+    background-color: #FFFFFF; /* Цвет фона */
+    border-radius: 3px 3px 0 0; /* Скругляем уголки */
+    color: #2F4F4F; /* Цвет текста */
+   }
+   .tab :checked + .tab-title::after {
+    content: 'v'; /* Выводим v */
+   }
+   .tab :checked ~ .tab-content {
+    display: block; /* Показываем содержимое */
+   }
+   .tab label {
+  font-size: 24px;
+}
+
+.button2 {
+    background-color: #7B68EE; 
+    border: none;
+	border-radius: 24px
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.gradient {
+    background: linear-gradient(to right, #ff3399 0%, #660066 100%);
+}
+
+footer {
+    color: gray;
+	font-size: 14px;
+}
+
+.q-input{
+	height: 40px;
+	width: 40%;
+	border: 1px solid;
+	border-radius: 5px 5px 5px 5px;
+	padding: 0 10px;
+}
+
+table {
+   border-collapse: collapse;
+   /*убираем пустые промежутки между ячейками*/
+   border: 1px solid grey;
+   /*устанавливаем для таблицы внешнюю границу серого цвета толщиной 1px*/
+
+}
+tr, td {
+   padding: 100px 150px;
+}
+
+
+
